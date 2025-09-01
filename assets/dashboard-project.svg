@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#101632;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1530;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2ed3b7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1fa48f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#bg)" rx="16"/>
+  
+  <!-- Dashboard Container -->
+  <rect x="30" y="25" width="240" height="150" fill="#0b1020" stroke="url(#primary)" stroke-width="2" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="30" y="25" width="240" height="30" fill="url(#primary)" rx="12 12 0 0"/>
+  <text x="150" y="43" text-anchor="middle" fill="#0b1020" font-size="12" font-weight="bold">DASHBOARD</text>
+  
+  <!-- Charts/Widgets -->
+  <rect x="45" y="70" width="70" height="45" fill="#14224a" stroke="#2ed3b7" stroke-width="1" rx="6"/>
+  <rect x="130" y="70" width="70" height="45" fill="#14224a" stroke="#2ed3b7" stroke-width="1" rx="6"/>
+  <rect x="215" y="70" width="40" height="45" fill="#14224a" stroke="#2ed3b7" stroke-width="1" rx="6"/>
+  
+  <!-- Chart bars -->
+  <rect x="50" y="95" width="8" height="15" fill="url(#primary)"/>
+  <rect x="62" y="90" width="8" height="20" fill="url(#primary)"/>
+  <rect x="74" y="85" width="8" height="25" fill="url(#primary)"/>
+  <rect x="86" y="92" width="8" height="18" fill="url(#primary)"/>
+  <rect x="98" y="88" width="8" height="22" fill="url(#primary)"/>
+  
+  <!-- Pie chart -->
+  <circle cx="165" cy="92" r="15" fill="none" stroke="#2ed3b7" stroke-width="3" stroke-dasharray="30 20"/>
+  <circle cx="165" cy="92" r="15" fill="none" stroke="#9fb0d3" stroke-width="3" stroke-dasharray="20 30" stroke-dashoffset="-30"/>
+  
+  <!-- Gauge -->
+  <path d="M225 85 A10 10 0 0 1 245 95" stroke="url(#primary)" stroke-width="3" fill="none"/>
+  <path d="M245 95 A10 10 0 0 1 225 105" stroke="#9fb0d3" stroke-width="3" fill="none"/>
+  <circle cx="235" cy="95" r="2" fill="url(#primary)"/>
+  
+  <!-- Data Table -->
+  <rect x="45" y="130" width="210" height="35" fill="#14224a" stroke="#2ed3b7" stroke-width="1" rx="6"/>
+  <line x1="45" y1="145" x2="255" y2="145" stroke="#2ed3b7" stroke-width="1"/>
+  <line x1="120" y1="130" x2="120" y2="165" stroke="#2ed3b7" stroke-width="1"/>
+  <line x1="180" y1="130" x2="180" y2="165" stroke="#2ed3b7" stroke-width="1"/>
+  
+  <!-- Table content -->
+  <circle cx="60" cy="138" r="2" fill="url(#primary)"/>
+  <circle cx="135" cy="138" r="2" fill="url(#primary)"/>
+  <circle cx="195" cy="138" r="2" fill="url(#primary)"/>
+  
+  <rect x="50" y="150" width="25" height="4" fill="#9fb0d3" rx="2"/>
+  <rect x="125" y="150" width="30" height="4" fill="#9fb0d3" rx="2"/>
+  <rect x="185" y="150" width="35" height="4" fill="#9fb0d3" rx="2"/>
+  
+  <rect x="50" y="157" width="20" height="4" fill="#9fb0d3" rx="2"/>
+  <rect x="125" y="157" width="25" height="4" fill="#9fb0d3" rx="2"/>
+  <rect x="185" y="157" width="30" height="4" fill="#9fb0d3" rx="2"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="20" cy="20" r="2" fill="#2ed3b7" opacity="0.6"/>
+  <circle cx="280" cy="180" r="2" fill="#2ed3b7" opacity="0.6"/>
+  <circle cx="25" cy="185" r="1.5" fill="#2ed3b7" opacity="0.4"/>
+  <circle cx="275" cy="25" r="1.5" fill="#2ed3b7" opacity="0.4"/>
+</svg>

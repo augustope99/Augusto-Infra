@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'>
+  <rect width='100%' height='100%' fill='#0f1530'/>
+  <g fill='none' stroke='#2ed3b7' stroke-opacity='.6'>
+    <rect x='80' y='80' width='160' height='80' rx='10'/>
+    <rect x='260' y='80' width='160' height='80' rx='10'/>
+    <rect x='440' y='80' width='120' height='80' rx='10'/>
+    <path d='M240 120h20M420 120h20' stroke-width='2'/>
+  </g>
+  <text x='95' y='125' fill='#cfe9ff' font-size='16' font-family='Inter'>API/Email</text>
+  <text x='275' y='125' fill='#cfe9ff' font-size='16' font-family='Inter'>Automação</text>
+  <text x='455' y='125' fill='#cfe9ff' font-size='16' font-family='Inter'>MDM</text>
+</svg>

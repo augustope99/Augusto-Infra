@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#101632;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1530;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2ed3b7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1fa48f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#bg)" rx="16"/>
+  
+  <!-- App Window -->
+  <rect x="50" y="30" width="200" height="140" fill="#0b1020" stroke="url(#primary)" stroke-width="2" rx="12"/>
+  
+  <!-- Title Bar -->
+  <rect x="50" y="30" width="200" height="25" fill="url(#primary)" rx="12 12 0 0"/>
+  <circle cx="65" cy="42" r="3" fill="#0b1020"/>
+  <circle cx="75" cy="42" r="3" fill="#0b1020"/>
+  <circle cx="85" cy="42" r="3" fill="#0b1020"/>
+  
+  <!-- App Content -->
+  <rect x="65" y="70" width="170" height="8" fill="#2ed3b7" rx="4"/>
+  <rect x="65" y="85" width="120" height="6" fill="#9fb0d3" rx="3"/>
+  <rect x="65" y="95" width="140" height="6" fill="#9fb0d3" rx="3"/>
+  
+  <!-- Input/Output boxes -->
+  <rect x="65" y="110" width="70" height="30" fill="#14224a" stroke="#2ed3b7" stroke-width="1" rx="6"/>
+  <rect x="165" y="110" width="70" height="30" fill="#14224a" stroke="#2ed3b7" stroke-width="1" rx="6"/>
+  
+  <!-- Arrow -->
+  <path d="M140 120 L155 125 L140 130 M145 125 L155 125" stroke="url(#primary)" stroke-width="2" fill="none"/>
+  
+  <!-- Convert Button -->
+  <rect x="120" y="150" width="60" height="15" fill="url(#primary)" rx="8"/>
+  <text x="150" y="160" text-anchor="middle" fill="#0b1020" font-size="8" font-weight="bold">CONVERTER</text>
+  
+  <!-- Code symbols -->
+  <text x="75" y="125" text-anchor="middle" fill="#2ed3b7" font-size="10" font-family="monospace">&lt;/&gt;</text>
+  <text x="200" y="125" text-anchor="middle" fill="#2ed3b7" font-size="10" font-family="monospace">EXE</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="25" cy="25" r="2" fill="#2ed3b7" opacity="0.6"/>
+  <circle cx="275" cy="175" r="2" fill="#2ed3b7" opacity="0.6"/>
+  <circle cx="30" cy="180" r="1.5" fill="#2ed3b7" opacity="0.4"/>
+  <circle cx="270" cy="30" r="1.5" fill="#2ed3b7" opacity="0.4"/>
+</svg>
