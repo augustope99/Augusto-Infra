@@ -3,7 +3,7 @@ const typedEl = document.getElementById('typed');
 const cursorEl = document.querySelector('.cursor');
 const roles = [
   'Augusto Pereira Emiliano',
-  'Analista de Suporte Técnico N1',
+  'Analista de TI',
   'Automação • MDM • 365 • Jira'
 ];
 let roleIndex = 0;
