@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Augusto Pereira Emiliano — Portfólio</title>
+  <title>Augusto Pereira Emiliano</title>
   <meta name="description" content="Portfólio — Augusto Pereira Emiliano, Analista de Suporte Técnico N1.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +56,7 @@
     <section id="sobre" class="container section">
       <h2 class="section-title">Sobre mim</h2>
       <p class="section-text">
-        Olá! Eu sou <strong>Augusto Pereira Emiliano</strong>, <strong>Analista de Suporte Técnico N1</strong>.
+        Olá! Eu sou <strong>Augusto Pereira Emiliano</strong>, <strong>Analista de TI</strong>.
         Gosto de misturar <em>programação</em> com <em>infraestrutura</em> para gerar valor real: agilidade,
         automação e confiabilidade. Trabalho com VSCode, Python, HTML, CSS, JavaScript, Power Automate,
         Admin Center 365, Jira, plataformas de MDM e monitoramento.
@@ -139,7 +139,7 @@
           <img src="assets/4334361_2279867.jpg" alt="Ilustração do fluxo de automação de e-mail" class="project-img"/>
         </div>
         <div class="project-body">
-          <h3>Automação de E-mails — Indicações do Cockpit</h3>
+          <h3>Automação de E-mails</h3>
           <p>
             Objetivo: automatizar o processo de receber e classificar indicações do cockpit, que antes exigia
             planilhas manuais para distribuir às carteiras dos especialistas. A proposta utiliza
@@ -150,31 +150,9 @@
             <li>Coleta automática dos e-mails padronizados;</li>
             <li>Extração dos campos relevantes (assunto, remetente, tags, dados do corpo);</li>
             <li>Registro em lista (SharePoint/Excel online) para auditoria;</li>
-            <li>Distribuição automática para as carteiras dos especialistas;</li>
-            <li>Alertas e relatórios simples para acompanhamento.</li>
+            <li>Distribuição automática;</li>
           </ul>
           <a class="btn small" href="#" onclick="openModal('modal-automation'); return false;">Saiba mais</a>
-        </div>
-      </article>
-
-      <article class="project-card reveal">
-        <div class="project-media">
-          <img src="assets/4334361_2279867.jpg" alt="Ilustração do conversor de código em executável" class="project-img"/>
-        </div>
-        <div class="project-body">
-          <h3>Conversor de Remessas — Interface Executável</h3>
-          <p>
-            Desenvolvimento de uma aplicação <strong>stand-alone</strong> para conversão de remessas. 
-            O cliente precisava acessar o VSCode para executar scripts Python, o que gerava dependência técnica. 
-            Criei uma interface gráfica intuitiva e compilei tudo em um <strong>executável único</strong>.
-          </p>
-          <ul class="project-points">
-            <li>Interface gráfica amigável com layout interativo;</li>
-            <li>Compilação do código Python em executável (.exe);</li>
-            <li>Instalação automática de dependências pelo executável;</li>
-            <li>Eliminação da necessidade de configuração manual;</li>
-          </ul>
-          <a class="btn small" href="#" onclick="openModal('modal-converter'); return false;">Saiba mais</a>
         </div>
       </article>
 
@@ -183,17 +161,13 @@
           <img src="assets/4334361_2279867.jpg" alt="Ilustração de dashboard de monitoramento" class="project-img"/>
         </div>
         <div class="project-body">
-          <h3>Dashboard de Monitoramento — Infraestrutura</h3>
+          <h3>Monitoramento de Infra</h3>
           <p>
-            Criação de um <strong>dashboard centralizado</strong> para monitoramento de infraestrutura e indicadores de performance. 
-            Integração com múltiplas fontes de dados para oferecer visibilidade completa do ambiente corporativo.
+            Monitoramento de <strong>Zabbix, Grafana, Prometheus</strong>
           </p>
           <ul class="project-points">
             <li>Monitoramento em tempo real de servidores e serviços;</li>
-            <li>Alertas automáticos por e-mail e Teams;</li>
-            <li>Gráficos interativos e relatórios personalizados;</li>
-            <li>Integração com ferramentas de MDM e ITSM;</li>
-            <li>Interface responsiva para acesso mobile.</li>
+            <li>Automatização para emitir alertas;</li>
           </ul>
           <a class="btn small" href="#" onclick="openModal('modal-dashboard'); return false;">Saiba mais</a>
         </div>
@@ -241,7 +215,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Augusto Pereira Emiliano • Analista de Suporte Técnico N1</p>
+      <p>© <span id="year"></span> Augusto Pereira Emiliano • Analista de TI</p>
     </div>
   </footer>
 
@@ -262,35 +236,14 @@
     </div>
   </div>
 
-  <!-- Modal Converter -->
-  <div id="modal-converter" class="modal" aria-hidden="true" role="dialog" aria-label="Detalhes do projeto Conversor de Remessas">
-    <div class="modal-content">
-      <button class="close" onclick="closeModal('modal-converter')" aria-label="Fechar">×</button>
-      <h3>Detalhes Técnicos — Conversor de Remessas</h3>
-      <ol>
-        <li>Análise do código Python existente para conversão de remessas.</li>
-        <li>Desenvolvimento de interface gráfica com Tkinter/PyQt.</li>
-        <li>Implementação de validações e tratamento de erros.</li>
-        <li>Compilação com PyInstaller para gerar executável stand-alone.</li>
-        <li>Testes em diferentes versões do Windows para compatibilidade.</li>
-        <li>Documentação de uso e entrega do executável final.</li>
-      </ol>
-      <p class="modal-note">*Solução automatizou instalação de dependências e simplificou o processo.</p>
-    </div>
-  </div>
-
   <!-- Modal Dashboard -->
   <div id="modal-dashboard" class="modal" aria-hidden="true" role="dialog" aria-label="Detalhes do projeto Dashboard">
     <div class="modal-content">
       <button class="close" onclick="closeModal('modal-dashboard')" aria-label="Fechar">×</button>
-      <h3>Detalhes Técnicos — Dashboard de Monitoramento</h3>
+      <h3>Monitoramento de Infra</h3>
       <ol>
-        <li>Levantamento de requisitos e fontes de dados disponíveis.</li>
-        <li>Desenvolvimento com Power BI/Grafana para visualização.</li>
-        <li>Integração com APIs de monitoramento e bases de dados.</li>
-        <li>Configuração de alertas automáticos via Power Automate.</li>
-        <li>Implementação de segurança e controle de acesso.</li>
-        <li>Treinamento da equipe e documentação técnica.</li>
+        <li>Monitoramento em tempo real de servidores e serviços;</li>
+            <li>Automatização para emitir alertas;</li>
       </ol>
       <p class="modal-note">*Dashboard centralizado melhorou visibilidade e tempo de resposta.</p>
     </div>
